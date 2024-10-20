@@ -28,7 +28,6 @@ nn.Conv2d(
 > Unlike in words, we don't use casual mask here.
 
 
-![attention-part](assets/attention-part.png)
 <div align='center'><img src="assets/attention-part.png" width=300 height=500 style="display:inline-block; margin-right: 10px;"></div>
 
 At Final Projection layer,
