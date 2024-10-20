@@ -88,7 +88,7 @@ with gr.Blocks(
     with gr.Tab("README"):
         # Add a simple text description in the About tab
         with open("README.md", "r+") as file: readme_content = file.read()
-        gr.Markdown(readme_content)
+        gr.Markdown(readme_content[140:])
 
 
 
