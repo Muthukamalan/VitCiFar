@@ -64,7 +64,7 @@ def attn_viz(image,number:int=2):
 
 # Create a Gradio TabbedInterface with two tabs
 with gr.Blocks(
-            title="AAttnViz",
+            title="AttnViz",
     ) as demo:
     with gr.Tab("Image Processing"):
         # Create an image input and a number input
